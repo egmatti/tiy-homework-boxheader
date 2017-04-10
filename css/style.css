@@ -1,0 +1,134 @@
+* {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0; }
+
+.fa-angle-down {
+  padding-left: 10px; }
+
+.fa-phone {
+  padding-right: 10px; }
+
+.fa-user-circle {
+  padding-right: 10px; }
+
+header {
+  height: 55px;
+  position: fixed;
+  width: 100%; }
+
+.main-nav {
+  float: left;
+  margin-left: 5%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+  .main-nav svg {
+    fill: white;
+    height: auto;
+    margin-right: 10px;
+    width: 50px; }
+  .main-nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 15px; }
+    .main-nav ul li a {
+      color: #c6d1d8;
+      font-size: 0.9rem;
+      text-decoration: none; }
+    .main-nav ul li a:hover {
+      color: white; }
+
+.secondary-nav {
+  float: right;
+  margin-right: 5%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+  .secondary-nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 15px; }
+    .secondary-nav ul li a {
+      color: #c6d1d8;
+      font-size: 0.9rem;
+      text-decoration: none; }
+    .secondary-nav ul li a:hover {
+      color: white; }
+
+#sign-up {
+  border: 1px solid #005fd5;
+  border-radius: 3px;
+  padding: 10px 20px; }
+
+#sign-up:hover {
+  background-color: #005fd5; }
+
+#sign-up:hovered {
+  color: white; }
+
+#hero {
+  background: url("../images/background-320.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: -10; }
+
+#hero-text {
+  position: relative;
+  top: 20%; }
+  #hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-bottom: 20px; }
+  #hero-text h2 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding-bottom: 25px; }
+  #hero-text button {
+    background: linear-gradient(to right, #005fd5 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: black;
+    font-size: 0.9rem;
+    margin: 20px 0px;
+    padding: 15px 25px;
+    text-transform: uppercase; }
+  #hero-text button:hover {
+    background-position: left;
+    border: 1px solid #005fd5;
+    color: white;
+    transition: all 0.5s ease; }
+
+#laptop {
+  height: auto;
+  padding-top: 185px;
+  width: 50%; }
+
+video {
+  position: absolute;
+  width: 34%;
+  top: 55%; }
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%; }
+
+/*# sourceMappingURL=style.css.map */
